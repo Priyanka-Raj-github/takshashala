@@ -1,0 +1,223 @@
+#parent{
+    /* border: 5px solid red; */
+}
+.main_about{
+    background-color: gainsboro;
+    border: 10px double gray;
+    background-color: black;
+    /* border: 1px solid rgb(82, 83, 82); */
+   
+}
+/* #header_about li{
+    color: rgb(12, 12, 95);
+    font-size: 50px;
+    text-decoration: underline;
+
+} */
+
+/* body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -15px;
+    background-color: gainsboro;
+} */
+a{
+    text-decoration: none;
+    color: skyblue;
+}
+.arrow_right{
+    border:2px solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.header_about li{
+    list-style: none;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: Bookman Old Style;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.header_about{
+    padding-top: 20px;
+    margin-top: 6.2%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 1%;
+    z-index: 10;
+}
+.container_about{
+    background-color: rgb(184, 241, 241);
+    padding: 12px;
+    
+    
+}
+section{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.same_about{
+    width: 67%;
+    border: 0.5px solid rgb(92, 90, 90);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px gray;
+    padding: 8px;
+    font-size: 20px;
+    font-family: Bookman Old Style;
+    text-shadow: 2cm 0cm 5cm rgb(184, 183, 178);
+    color: white;
+}
+.gwp{
+    text-decoration: underline;
+    color: rgb(194, 64, 64);
+    font-weight: 380;
+    font-style: oblique;
+}
+h2{
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: forte;
+    color: rgb(202, 48, 48);
+}
+.differ{
+    width: 800px;
+    border: 0.5px solid rgb(92, 90, 90);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px gray;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-family: Bookman Old Style;
+    text-shadow: 2cm 0cm 5cm rgb(184, 183, 178);
+    margin-left: -7%;
+}
+.upr_differ{
+    display: flex;
+    flex-direction: row;
+}
+.images{
+    display: flex;
+    flex-direction: column;   
+}
+.images2{
+    display: flex;
+    flex-direction: column;  
+    margin-left: -6%;
+    z-index: 2;
+}
+#img1{
+    height:390px;
+    width: 580px;
+    border: 10px double rgb(116, 107, 107);
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    box-shadow: 10px 10px 5px gray;
+    transform: rotate(-11deg);
+    z-index: 1;
+}
+#img2{
+    height: 250px;
+    width: 540px;
+    border: 3px unset rgb(87, 84, 84);
+    margin-top: 5px;
+    box-shadow: 10px 10px 5px gray;
+    margin-left: 15px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.differ2{
+    
+    /* padding-left: 150px; */
+    border: 0px solid rgb(92, 90, 90);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px gray;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-family: Bookman Old Style;
+    text-shadow: 2cm 0cm 5cm rgb(184, 183, 178);
+    
+}
+.low_differ{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#img3{
+    height: 450px;
+    width: 700px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border: 2px dotted red;
+    margin-top: 5px;
+    box-shadow: 10px 10px 5px gray;
+    transform: rotate(-11deg);
+    margin-left: 5%;
+}
+.box{
+    border-radius: 20px;
+    padding-left: 100px;
+    border-bottom: 2px solid gray;
+}
+#some{
+    margin-top: 20%;
+    font-size: 30px;
+    color: white;
+}
+.arrow_some{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.allimg{
+    display: flex;
+    flex-direction: row;
+    margin-left:-10%;
+}
+#badminton{
+    height: 350px;
+    width: 300px;
+    z-index: 2;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    transform: rotate(-9deg);
+}
+#guriya{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(9deg);
+}
+#melusi{
+    height: 300px;
+    width: 400px;
+    z-index: 1;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(9deg);
+}
+#kabaddi{
+    height: 300px;
+    width: 400px;
+    z-index: 2;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(-9deg);
+}

@@ -1,0 +1,62 @@
+/* h1{
+    font-size: 40px;
+    color: blue;
+}
+div{
+    background-color: aquamarine;
+    border: 3px solid red;
+} */
+#update{
+    color: white;
+    background-color: black;
+    border: 10px double gray;
+}
+#contact{
+    padding-top: 7%;
+    height: 50px;
+    width: 400px;
+    margin-left:10%;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration:underline;
+    font-family: Bernard MT Condensed;
+}
+.mains{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    gap: 20px;
+    height: 100vh;
+}
+.sames{
+    
+    /* box-shadow: 5px 5px 5px 5px rgb(186, 188, 189); */
+    height: 100px;
+    width:400px;
+    padding-left: 10px;
+    padding-top: 8px;
+    line-height: 1.5em;
+}
+.mains p{
+    margin-left: 15%;
+}
+.mains span{
+    font-weight: 700;
+}
+.email{
+    height:60px;
+}
+.call{
+    height: 70px;
+}
+iframe{
+    filter: invert(0%);
+}
+span{
+    font-size: 20px;
+}
+#contact_img{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -3%;
+}

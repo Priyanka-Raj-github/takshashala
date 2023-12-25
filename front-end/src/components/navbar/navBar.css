@@ -1,0 +1,221 @@
+.main_nav{
+    width: 100%;
+    height: 550px;
+    margin-top: -17px;
+    background:linear-gradient(rgb(48, 151, 192), rgb(160, 208, 226));
+    /* background-color: skyblue; */
+    color: rgb(12, 12, 90);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: Baskerville Old Face;
+
+  }
+  /* .arrow_down{
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } */
+  
+  /* #gloc{
+    position: absolute;
+    font-family: Bradley Hand ITC;
+    margin-top: 8.2%;
+    margin-left:80%;
+    font-size: 15px;
+    color: brown;
+    font-weight:600;
+  }
+  #cloc{
+    position: absolute;
+    font-family: Bradley Hand ITC;
+    margin-top: 8.2%;
+    margin-left:1%;
+    color: brown;
+    font-weight:600;
+  }
+  #logo{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    margin-left:2%;
+  }
+  #google_college{
+    
+    border-radius: 10px;
+    position: absolute;
+    width: 40px;
+    height: 42px;
+    margin-top: 5.3%;
+    margin-left:82%;
+  } */
+.dropdown li{
+    display: block;
+    font-size: 25px;
+}
+.dropdown{
+    background-color: aliceblue;
+    /* border: 3px solid purple; */
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* text-align: center; */
+    gap: 10px;
+    left: 40%;
+    margin-top: 2.2%;
+    padding: 15px;
+    display: none;
+    width: 110px; 
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 3px;
+}
+.dropdown li:hover{
+    text-align: center;
+}
+.dropdown li a:hover{
+    background: goldenrod;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+  
+  /* .col{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding-bottom: 5px;
+  } */
+  
+  #imgs{
+    height: 30px;
+    width: 30px;
+    padding-left: 54px;
+  }
+  ul li{
+    /* margin-top: 5px; */
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .nav-links{
+    position: fixed;
+    border: 3px solid rgb(128, 202, 231);
+    background-color: skyblue;
+    box-shadow: 3px 3px 8px rgb(170, 168, 168);
+    padding: 8px;
+    z-index: 999;
+  }
+  /*
+  #name{
+    border: 3px solid green;
+    position:absolute;
+    margin-top: ; 
+    left: 32.5%; 
+    transform: translate(-30%, -50%);
+    font-size: 40px;
+      -webkit-text-stroke: 1px rgb(61, 80, 187); 
+    color: transparent;
+     background-image: linear-gradient(rgb(12, 12, 90), rgb(12, 12, 90));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -350px 0;
+    animation:backcolor 2s linear infinite alternate; 
+    /* font-family: Bradley Hand ITC;
+    font-weight: 900; 
+  }*/
+  /* @keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+  } */
+  .nav-links li a{
+    text-decoration: none;
+    color:rgb(10, 10, 56);
+    font-weight: 30px;
+  }
+  .nav-links li a:hover {
+    color: #941e1e;
+    text-decoration: underline;
+
+  }
+  ul{
+    position: fixed;
+    
+   width: 100%;
+    /* top:9%; */
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+    /* padding: 10px 20px; */
+  }
+  /* .about
+  {   
+    margin-top: 8%;
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  #about_clg{
+    text-decoration: underline;
+    font-style: italic;
+    color: brown;
+  }
+  footer{
+    margin-left: 45%;
+    margin-top:20%;
+  }
+  footer imgs{
+    height:30px;
+    width:30px;
+  }
+  #visit{
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 3.5%;
+    color:rgb(12, 12, 90);
+  }
+  #location_copy{
+    color:brown;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  #copy{
+    margin-left:66%;
+    margin-top:5%;
+  }
+  #location{
+    margin-left: 1%;
+  }
+   */
+    /*     
+  }
+  .tooltip{
+    background-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 80%;
+  }
+  .tooltip .tooltiptext{
+    
+    visibility: hidden;
+   
+  }
+  .tooltip:hover  .tooltiptext{
+    visibility: visible;
+  } */
