@@ -14,7 +14,8 @@
 
 		Download Node.js from https://nodejs.org/. This includes npm, the package manager.
 		Verify installation:
-		node -v
+		
+  		node -v
 		npm -v
 
 	2. Create React App:
