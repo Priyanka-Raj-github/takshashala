@@ -4,6 +4,20 @@
 -The website we developed is a single-page web application built using React JS. In the front-end, we've designed various pages, including the home page, about page, academic section, registration, login, and contact.
 -Shifting focus to the back-end, we've implemented an API that serves as the bridge between our front-end and back-end systems.
 -For data storage, we opted for the MongoDB database, where we store information pertaining to registered users.
+-Here are the preview of some pages of our website:
+## Sample Preview
+	1.Home Page
+ 	![png](preview/home.png)
+  	2.Home Page2
+ 	![png](preview/home2.png)
+  	3.About Page
+ 	![png](preview/about.png)
+  	4.Academics/Principal Page
+ 	![png](preview/principal.png)
+  	5.Registration/Login Page
+ 	![png](preview/register.png)
+  	6.Contact Page
+ 	![png](preview/contact.png)
 
 ## Installation
 
